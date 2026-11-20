@@ -3,7 +3,7 @@
 # Regenerate with ./update.sh — it reads the latest GitHub release, pulls the
 # SHA-256 table out of the release notes and rewrites this file.
 {
-  version = "2.24.13";
+  version = "2.25.8";
 
   # variant -> nix system -> { debArch, hash }
   #
@@ -19,21 +19,21 @@
     gui = {
       x86_64-linux = {
         debArch = "amd64";
-        hash = "sha256-eanxf898hY6NKzHM2umrfabjhA+8kKl0AQTLCsvOGZE=";
+        hash = "sha256-JYkLk1dsdTOF5UlUj2DdJ9Jwdo0EfRzSwPpVBhnQ5ks=";
       };
       aarch64-linux = {
         debArch = "arm64";
-        hash = "sha256-pvbcsQ4Uz51bDmdvoE69l3E7/ivf7OFGWB5Psoi8Fls=";
+        hash = "sha256-bFal4vz0JpOITxszAv6Kjw/ihuBG6mVopvw7qEB9B/U=";
       };
     };
     cli = {
       x86_64-linux = {
         debArch = "amd64";
-        hash = "sha256-lrXTxic0L+a13nnQTRlKYUWBlrcv9MzQ2htZp1+AT7A=";
+        hash = "sha256-iFONiBYfGgttZI+7dNf9Su3ZjXcaBTr4WQ6/l14KPII=";
       };
       aarch64-linux = {
         debArch = "arm64";
-        hash = "sha256-OM+30iMmK56pCgYztgZggIN+Hteu9VXt9QHRNskruxk=";
+        hash = "sha256-h2Jsjhllzpvbd/inBr0HxIbIfTAJ0mvseUJPi/jJ5Ko=";
       };
     };
   };
